@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: #f6f6f6;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.header-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.header-logo img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+header p i {
+    font-size: 14px;
+    color: #555;
+}
+
+.content-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    padding-right: 20px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.content {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.content p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.image-section {
+    width: 300px;
+    padding-left: 20px;
+}
+
+.image-section figure {
+    margin: 0;
+}
+
+.image-section img {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.image-section figcaption {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid #ddd;
+}
